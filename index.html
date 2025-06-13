@@ -28,7 +28,9 @@
         />
 
         <!-- The `<strong>` element indicates that its contents are important. Browsers typically render the contents in bold. It's a HTML5 replacement for the old `<b>` element. -->
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
       </header>
 
       <!-- 
@@ -101,7 +103,7 @@
 
     <aside>
       <h4>Related posts</h4>
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="./images/related-1.jpg"
@@ -110,7 +112,7 @@
             alt="A man coding on a laptop."
           />
           <a href="#">How to Learn Web Development</a>
-          <p>By Jonas Schmedtmann</p>
+          <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
           <img
@@ -120,7 +122,7 @@
             alt="A picture of a lightning."
           />
           <a href="#">The Unknown Powers of CSS</a>
-          <p>By Jim Dillon</p>
+          <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
           <img
@@ -130,13 +132,13 @@
             alt="JavaScript code on a screen."
           />
           <a href="#">Why JavaScript is Awesome</a>
-          <p>By Matilda</p>
+          <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside>
 
     <footer>
-      <p>
+      <p id="copyright">
         <!-- 
       > The `<small>` HTML element represents side-comments and small print, like copyright and legal text, [...]. (Source: MDN)
        -->
