@@ -76,3 +76,11 @@ aside {
 .main-header {
   background-color: #f7f7f7;
 }
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
