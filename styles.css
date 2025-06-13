@@ -6,6 +6,13 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1089ad;
 }
 
 h1 {
@@ -37,6 +44,12 @@ li {
   font-size: 20px;
 }
 
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1089ad;
+  border-bottom: 5px solid #1089ad;
+}
+
 /* Descendent selector */
 /* footer p {
   font-size: 16px;
@@ -58,4 +71,8 @@ li {
 
 .related {
   list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
 }
