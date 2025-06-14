@@ -1,12 +1,7 @@
-/* Selector list */
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
   font-family: sans-serif;
   color: #444;
+  border-block-start: 10px solid #1098ad;
 }
 
 h1,
