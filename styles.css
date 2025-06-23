@@ -55,6 +55,7 @@ aside {
   /* padding-block-start: 50px;
   padding-block-end: 50px; */
   padding: 50px 0;
+  width: 500px;
 }
 
 /* Descendent selector */
@@ -128,8 +129,16 @@ article {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-block-end: 60px;
+  height: 80px;
 }
 
 .post-header {
   margin-block-end: 40px;
+}
+
+/* You can set one of the dimensions explicitly and use `auto` for the other to keep
+the aspect ratio. */
+.post-img {
+  width: 100%;
+  height: auto;
 }
