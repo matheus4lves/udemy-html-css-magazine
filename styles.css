@@ -172,3 +172,15 @@ the aspect ratio. */
   margin: auto;
   position: relative;
 }
+
+.author-img {
+  float: inline-start;
+  margin-block-end: 20px;
+}
+
+.author {
+  float: inline-start;
+  margin: 0 0 0 20px;
+  height: 50px;
+  line-height: 50px;
+}
