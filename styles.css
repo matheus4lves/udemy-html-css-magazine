@@ -197,3 +197,21 @@ nav {
   display: table;
   clear: both;
 }
+
+.container {
+  width: 1200px;
+}
+
+main {
+  width: 825px;
+  float: inline-start;
+}
+
+aside {
+  width: 300px;
+  float: inline-end;
+}
+
+footer {
+  clear: both;
+}
