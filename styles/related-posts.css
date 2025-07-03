@@ -1,7 +1,6 @@
 /* ⚠️ Centralize CSS declarations */
 .related-posts {
-  float: inline-end;
-  width: 300px;
+  flex: 0 0 300px;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 30px;

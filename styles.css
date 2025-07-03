@@ -1,3 +1,4 @@
+@import "./styles/page.css";
 @import "./styles/lists.css";
 @import "./styles/related-posts.css";
 
@@ -159,7 +160,6 @@ the aspect ratio. */
 
 main {
   width: 825px;
-  float: inline-start;
 }
 
 footer {
