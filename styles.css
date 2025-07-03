@@ -1,14 +1,9 @@
+@import "./styles/base.css";
 @import "./styles/page.css";
 @import "./styles/header.css";
 @import "./styles/menu.css";
 @import "./styles/lists.css";
 @import "./styles/related-posts.css";
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 body {
   font-family: sans-serif;
