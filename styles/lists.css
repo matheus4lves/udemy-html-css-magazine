@@ -1,0 +1,15 @@
+.ol__li,
+.ul__li {
+  font-size: 20px;
+  margin: 0 0 20px 50px;
+}
+
+.ol__li:first-child,
+.ul__li:first-child {
+  font-weight: bold;
+}
+
+.ol__li:last-child,
+.ul__li:last-child {
+  font-style: italic;
+}

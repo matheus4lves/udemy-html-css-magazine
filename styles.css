@@ -1,3 +1,4 @@
+@import "./styles/lists.css";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -60,10 +61,6 @@ p {
   margin-block-end: 15px;
 }
 
-li {
-  font-size: 20px;
-}
-
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
@@ -78,14 +75,6 @@ aside {
 /* footer p {
   font-size: 16px;
 } */
-
-li:first-child {
-  font-weight: bold;
-}
-
-li:last-child {
-  font-style: italic;
-}
 
 /* Links should always be styled in the LVHA order */
 
@@ -107,12 +96,6 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
-}
-
-ul,
-ol {
-  margin-inline-start: 50px;
-  margin-block-end: 20px;
 }
 
 nav {
