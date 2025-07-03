@@ -1,5 +1,6 @@
 @import "./styles/page.css";
 @import "./styles/header.css";
+@import "./styles/menu.css";
 @import "./styles/lists.css";
 @import "./styles/related-posts.css";
 
@@ -83,10 +84,6 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
-}
-
-nav {
-  font-size: 18px;
 }
 
 article {
