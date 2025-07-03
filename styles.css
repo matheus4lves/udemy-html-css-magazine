@@ -1,4 +1,5 @@
 @import "./styles/page.css";
+@import "./styles/header.css";
 @import "./styles/lists.css";
 @import "./styles/related-posts.css";
 
@@ -14,16 +15,9 @@ body {
   border-block-start: 10px solid #1098ad;
 }
 
-h1,
 h2,
 h3 {
   color: #1098ad;
-}
-
-h1 {
-  font-size: 26px;
-  text-transform: uppercase;
-  font-style: italic;
 }
 
 h2 {
@@ -115,15 +109,6 @@ button {
 
 #copyright {
   font-size: 16px;
-}
-
-.main-header {
-  background-color: #f7f7f7;
-  padding: 20px 40px;
-  margin-block-end: 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .post-header {

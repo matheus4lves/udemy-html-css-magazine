@@ -1,0 +1,18 @@
+.header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__heading {
+  color: #1098ad;
+  font-size: 26px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.header__heading::first-letter {
+  font-style: normal;
+}
