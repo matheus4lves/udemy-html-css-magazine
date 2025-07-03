@@ -1,0 +1,39 @@
+/* ⚠️ Centralize CSS declarations */
+.related-posts {
+  float: inline-end;
+  width: 300px;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 30px;
+  background-color: #f7f7f7;
+}
+
+.related-posts__list {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+}
+
+.related-posts__item {
+  display: flex;
+  gap: 20px;
+}
+
+.related-posts__link:link {
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  margin-block-end: 5px;
+}
+
+.related-posts__author {
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}

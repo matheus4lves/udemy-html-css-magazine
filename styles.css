@@ -1,4 +1,6 @@
 @import "./styles/lists.css";
+@import "./styles/related-posts.css";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -61,16 +63,6 @@ p {
   margin-block-end: 15px;
 }
 
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-  /* padding-block-start: 50px;
-  padding-block-end: 50px; */
-  padding: 50px 0;
-  width: 500px;
-}
-
 /* Descendent selector */
 /* footer p {
   font-size: 16px;
@@ -124,16 +116,6 @@ button {
   font-size: 16px;
 }
 
-.related-author {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.related {
-  margin: 0;
-  list-style: none;
-}
-
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
@@ -180,15 +162,6 @@ main {
   float: inline-start;
 }
 
-aside {
-  width: 300px;
-  float: inline-end;
-  padding: 50px 40px;
-}
-
 footer {
   clear: both;
-}
-h4 {
-  margin-block-end: 30px;
 }
