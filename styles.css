@@ -8,37 +8,8 @@
 @import "./styles/article.css";
 @import "./styles/related-posts.css";
 
-body {
-  font-family: sans-serif;
-  color: #444;
-  border-block-start: 10px solid #1098ad;
-}
-
 h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
-}
-
-/* Descendent selector */
-/* footer p {
-  font-size: 16px;
-} */
-
-#copyright {
-  font-size: 16px;
-}
-
-.container {
-  width: 800px;
-  margin: auto;
-  position: relative;
-}
-
-.author {
-  margin: 0;
-}
-
-main {
-  width: 825px;
 }

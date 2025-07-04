@@ -1,5 +1,28 @@
+.page {
+  font-family: sans-serif;
+  color: #444;
+  border-block-start: 10px solid #1098ad;
+}
+
+.page__inner {
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 60px;
+}
+
+.page__header {
+  margin-block-end: 60px;
+}
+
 .page__core {
+  position: relative;
   display: flex;
   align-items: flex-start;
   gap: 75px;
+}
+
+.page__footer {
+  font-size: 16px;
 }
