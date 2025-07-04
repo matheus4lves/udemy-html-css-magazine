@@ -2,6 +2,7 @@
 @import "./styles/page.css";
 @import "./styles/header.css";
 @import "./styles/menu.css";
+@import "./styles/link.css";
 @import "./styles/lists.css";
 @import "./styles/related-posts.css";
 
@@ -58,28 +59,6 @@ p {
 /* footer p {
   font-size: 16px;
 } */
-
-/* Links should always be styled in the LVHA order */
-
-a:link {
-  color: #1098ad;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #1098ad;
-}
-
-a:hover {
-  color: orangered;
-  font-weight: bold;
-  text-decoration: underline orangered;
-}
-
-a:active {
-  background-color: black;
-  font-style: italic;
-}
 
 article {
   margin-block-end: 60px;

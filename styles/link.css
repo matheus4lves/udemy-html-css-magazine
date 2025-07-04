@@ -1,0 +1,20 @@
+/* Links should always be styled in the LVHA order */
+.link:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: #1098ad;
+}
+
+.link:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+.link:active {
+  background-color: black;
+  font-style: italic;
+}
