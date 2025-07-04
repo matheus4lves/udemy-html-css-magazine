@@ -7,9 +7,3 @@
 @import "./styles/lists.css";
 @import "./styles/article.css";
 @import "./styles/related-posts.css";
-
-h4 {
-  font-size: 20px;
-  text-transform: uppercase;
-  text-align: center;
-}

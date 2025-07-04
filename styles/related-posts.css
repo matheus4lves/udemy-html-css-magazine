@@ -10,6 +10,12 @@
   background-color: #f7f7f7;
 }
 
+.related-posts__heading {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .related-posts__list {
   list-style: none;
   margin: 0;
