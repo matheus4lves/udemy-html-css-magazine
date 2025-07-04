@@ -5,43 +5,13 @@
 @import "./styles/menu.css";
 @import "./styles/link.css";
 @import "./styles/lists.css";
+@import "./styles/article.css";
 @import "./styles/related-posts.css";
 
 body {
   font-family: sans-serif;
   color: #444;
   border-block-start: 10px solid #1098ad;
-}
-
-h2,
-h3 {
-  color: #1098ad;
-}
-
-h2 {
-  font-size: 40px;
-  margin-block-end: 30px;
-  position: relative;
-}
-
-h2::after {
-  content: "top";
-  text-transform: uppercase;
-  color: #444;
-  font-size: 16px;
-  font-weight: bold;
-  display: inline-block;
-  padding: 5px 10px;
-  background: #ffe70e;
-  position: absolute;
-  top: -10px;
-  right: -25px;
-}
-
-h3 {
-  font-size: 30px;
-  margin-block-start: 40px;
-  margin-block-end: 30px;
 }
 
 h4 {
@@ -55,37 +25,8 @@ h4 {
   font-size: 16px;
 } */
 
-article {
-  margin-block-end: 60px;
-}
-
-button {
-  font-size: 22px;
-  padding: 20px;
-  cursor: pointer;
-  position: absolute;
-  right: 50px;
-  bottom: 50px;
-}
-
-#author {
-  font-style: italic;
-  font-size: 18px;
-}
-
 #copyright {
   font-size: 16px;
-}
-
-.post-header {
-  margin-block-end: 40px;
-}
-
-/* You can set one of the dimensions explicitly and use `auto` for the other to keep
-the aspect ratio. */
-.post-img {
-  width: 100%;
-  height: auto;
 }
 
 .container {
@@ -94,25 +35,10 @@ the aspect ratio. */
   position: relative;
 }
 
-.article__metadata {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  margin-block-end: 20px;
-}
-
 .author {
   margin: 0;
 }
 
-.container {
-  width: 1200px;
-}
-
 main {
   width: 825px;
-}
-
-footer {
-  clear: both;
 }
