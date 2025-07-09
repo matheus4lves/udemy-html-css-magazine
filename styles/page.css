@@ -7,22 +7,30 @@
 .page__inner {
   margin: auto;
   width: 1200px;
-  display: flex;
-  flex-flow: column nowrap;
-  gap: 60px;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  grid-template-areas:
+    "header header"
+    "content sidebar"
+    "footer footer";
+  column-gap: 75px;
+  row-gap: 60px;
+  align-items: start;
 }
 
 .page__header {
-  margin-block-end: 60px;
+  grid-area: header;
 }
 
-.page__core {
-  position: relative;
-  display: flex;
-  align-items: flex-start;
-  gap: 75px;
+.page__main {
+  grid-area: content;
+}
+
+.page__aside {
+  grid-area: sidebar;
 }
 
 .page__footer {
+  grid-area: footer;
   font-size: 16px;
 }
